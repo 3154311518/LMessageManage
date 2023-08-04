@@ -8,7 +8,7 @@
 				"${compileOutput}",
 			],
 			"problemMatcher": [],
-			"label": "构建",
+			"label": "BuildArtifact",
 			"group": {
 				"kind": "build",
 				"isDefault": true
