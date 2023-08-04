@@ -159,7 +159,7 @@ public class VelocityMain {
     }
 
     @Subscribe
-    public void onCommandExecute(CommandExecuteEvent event) {
+    public void CommandExecuteEvent(CommandExecuteEvent event) {
         if (!(event.getCommandSource() instanceof Player)) return;
         Player player = (Player) event.getCommandSource();
         if (player.hasPermission("op")) return;

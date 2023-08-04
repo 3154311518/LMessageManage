@@ -84,7 +84,7 @@ public class BungeeMain extends Plugin implements Listener {
     }
 
     @EventHandler
-    public void onChat(ChatEvent event) {
+    public void ChatEvent(ChatEvent event) {
         if (event.isCancelled()) return;
         ProxiedPlayer player = (ProxiedPlayer) event.getSender();
         if (player.hasPermission("op")) return;
