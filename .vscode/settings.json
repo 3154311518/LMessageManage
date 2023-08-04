@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "out",
+    "java.project.referencedLibraries": [
+		"D:/file/Code/lib/velocity/*.jar",
+        "D:/file/Code/lib/waterfall/*.jar"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
